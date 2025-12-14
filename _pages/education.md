@@ -9,18 +9,19 @@ author_profile: true
 * **Institution:** The University of Utah, Salt Lake City, UT
 * **Expected Graduation:** December 2026
 
-## Focused Areas of Study
+## Completed and Current Areas of Study
 This program synthesizes technical defense expertise with strategic management and compliance goals.
 
 ### Advanced Defensive Strategy
-* **Secure Networking Operations:** Deep dive into advanced configurations for network defense.
 * **Vulnerability Management (IS 6573):** Implementation of analysis and remediation strategies.
-* **Cloud Security (IS 6641):** Principles for securing enterprise cloud environments.
+* **Secure Networking Operations (IS 6572):** Deep dive into advanced configurations for network defense.
 
 ### Technical & Management Competencies
 * **Cybersecurity Management (IS 6570):** Developed organizational security policy and risk assessment frameworks.
+* **Networking and Security (IS 6640):** Comprehensive overview of network security principles and practices.
 * **Programming for Security:** Leveraged Python (IS 6495) for scripting, automation, and custom security tool development.
-* **Security Analytics:** Applied Data Science and Big Data concepts (IS 6493) to threat intelligence and large-scale log analysis.
+* **Web Based Applications (IS 6465):** Foundations in securing web-based systems.
+* **MSCM Career Development (IS 6821):** Focus on professional readiness and career planning.
 
 ---
 
