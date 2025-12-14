@@ -5,46 +5,39 @@ permalink: /
 author_profile: true
 ---
 
-**Professional Summary**
+# The Modern Defender
 
-I am a dedicated cybersecurity professional specializing in the defense and operational efficiency of enterprise environments. My expertise is focused on **Blue Team Operations**, driving proactive threat mitigation within the Security Operations Center (SOC). I possess practical, hands-on experience across the full incident lifecycle—from SIEM deployment and custom **Threat Detection** development (Splunk, Python) to executing validated **Incident Response** procedures.
+I am a Cybersecurity Management Master’s candidate bridging the gap between traditional Security Operations and modern Data Science. Unlike the standard approach to Blue Teaming, I focus on building high-fidelity detection pipelines that leverage both rule-based SIEM logic and behavioral anomaly detection.
 
-As a **Master of Science in Cybersecurity Management (MSCM)** Candidate, **Expected to graduate in December 2026**, I am actively seeking full-time roles in **SOC Analysis, Security Monitoring, or Incident Response**. I leverage technical controls (Palo Alto Firewalls) to enforce regulatory compliance (HIPAA, PII Data Handling) and maintain a robust organizational security posture.
+My core research focuses on designing a hybrid security architecture integrating **Splunk Enterprise** with **NVIDIA DGX** infrastructure. This unique setup allows me to simulate enterprise-scale threat hunting scenarios using **Apache Spark** and **RAPIDS**, moving beyond basic alert monitoring to focus on **Detection Engineering**—optimizing how threats are identified, triaged, and mitigated.
 
----
-
-## Core Blue Team Skills
-
-### Detection & Response (SOC)
-* SIEM (Splunk Enterprise)
-* Log Aggregation
-* Threat Detection
-* Vulnerability Management
-* Incident Response
-
-### Access & Governance
-* Identity & Access Management (IAM)
-* Active Directory
-* Role-Based Access Control (RBAC)
-* HIPAA/PII Data Handling
-* Risk Assessment
-* Security Policy
-
-### Infrastructure & Automation
-* Firewalls (Palo Alto Networks)
-* Group Policy Management
-* Linux
-* Python
-* PowerShell
-* Bash
-* Virtualization
+I am currently seeking opportunities in **Security Operations (SOC)** or **Detection Engineering** where I can apply data-driven strategies to defend critical infrastructure.
 
 ---
 
-## Interests and Personal Focus
+### Technical Arsenal
 
-Beyond cybersecurity, I maintain discipline and focus through several activities:
+| Domain | Skills & Tools |
+| :--- | :--- |
+| **SIEM & Observability** | Splunk Enterprise (SPL), Sysmon, Zeek, Log Parsing, CIM |
+| **Data & AI** | NVIDIA DGX, Apache Spark (PySpark), Anomaly Detection, NVIDIA RAPIDS |
+| **Defense Frameworks** | MITRE ATT&CK, Cyber Kill Chain, NIST CSF |
+| **Infrastructure** | Linux (Ubuntu/RHEL), Windows Server, Virtualization, Docker |
 
-* **Goal-Oriented:** I enjoy working toward ambitious goals, whether it's achieving a new security certification or completing a challenging long-distance run.
-* **Outdoor Activities:** I am an avid hiker, runner, and rock climber. These activities reinforce problem-solving and perseverance in unfamiliar environments.
-* **Reading:** I prioritize reading to stay current on industry trends and to maintain a broad perspective on technology and risk management.
+---
+
+### Current Research Capstone
+**Project Title:** Hybrid SIEM Architecture: AI-Driven Threat Detection (Splunk + NVIDIA DGX)
+<br>
+**Status:** *Active Development / Research Phase*
+
+Traditional SIEM deployments often struggle with "alert fatigue" and the inability to process massive historical datasets in real-time. This project explores a modern solution: offloading heavy anomaly detection to GPU-accelerated infrastructure.
+
+**Key Architectures:**
+* **Ingestion:** Pipeline ingests standard security logs (Sysmon/Zeek) into **Splunk Enterprise** for immediate triage.
+* **Computation:** High-volume network capture data is routed to an **NVIDIA DGX** environment.
+* **Detection:** Using **Apache Spark** and **RAPIDS**, the system applies unsupervised learning models (Isolation Forest) to detect "low-and-slow" beacons that static correlation rules miss.
+
+**Targeted Outcomes:**
+* Reduction in False Positives via Risk-Based Alerting (RBA).
+* Utilizing GPU acceleration to reduce query time on historical datasets.
