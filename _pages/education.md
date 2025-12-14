@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Education"
+title: "Academic Profile & Credentials"
 permalink: /education/
 author_profile: true
 ---
@@ -9,11 +9,18 @@ author_profile: true
 * **Institution:** The University of Utah, Salt Lake City, UT
 * **Expected Graduation:** December 2026
 
-## Relevant Coursework
-* **Secure Operations & Defense:** Secure Network Ops, Vulnerability Management (IS 6573), Cloud Computing (IS 6641)
-* **Strategy & Management:** Cybersecurity Management (IS 6570), Networking and Security (IS 6640)
-* **Technical Skills:** Python Programming (IS 6495), Web Based Applications (IS 6465), Data Science & Big Data (IS 6493)
-* **Development & Career:** MSCM Career Development (IS 6821)
+## Focused Areas of Study
+This program synthesizes technical defense expertise with strategic management and compliance goals.
+
+### Advanced Defensive Strategy
+* **Secure Networking Operations:** Deep dive into advanced configurations for network defense.
+* **Vulnerability Management (IS 6573):** Implementation of analysis and remediation strategies.
+* **Cloud Security (IS 6641):** Principles for securing enterprise cloud environments.
+
+### Technical & Management Competencies
+* **Cybersecurity Management (IS 6570):** Developed organizational security policy and risk assessment frameworks.
+* **Programming for Security:** Leveraged Python (IS 6495) for scripting, automation, and custom security tool development.
+* **Security Analytics:** Applied Data Science and Big Data concepts (IS 6493) to threat intelligence and large-scale log analysis.
 
 ---
 
@@ -21,9 +28,12 @@ author_profile: true
 * **Institution:** Utah Valley University, Orem, UT
 * **Graduation:** 2022
 
-## Key Achievements & Focus
-* Specialization in Network Security and Systems Administration.
+## Key Infrastructure & Resilience Deliverables
+
+### Foundational Expertise
+* Specialization in **Network Security** and **Systems Administration**.
+* Demonstrated proficiency in network management and industry protocols.
 
 ### Notable Projects
-* Built a secure local area network (LAN) environment.
-* Developed a Business Continuity Plan (BCP).
+* **Secure LAN Implementation:** Designed and deployed a **secure local area network (LAN) environment**, applying foundational access control and perimeter defense principles.
+* **Business Continuity Planning (BCP):** Authored a detailed BCP, covering risk assessment, recovery time objectives, and crisis management protocols.
