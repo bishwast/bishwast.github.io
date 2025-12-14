@@ -17,11 +17,29 @@ As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles 
 
 ## Core Blue Team Skills
 
-| Functional Area | Expertise |
-| :--- | :--- |
-| **Detection & Response (SOC)** | Splunk Enterprise, Log Aggregation, Threat Detection, Vulnerability Management, Incident Response. |
-| **Access & Governance** | Identity & Access Management (IAM), Active Directory, Role-Based Access Control (RBAC), HIPAA/PII Data Handling, Risk Assessment, Security Policy. |
-| **Infrastructure & Automation** | Firewalls (Palo Alto Networks), Group Policy, Linux, Python, PowerShell, Bash, Virtualization. |
+### Detection & Response (SOC)
+* SIEM (Splunk Enterprise)
+* Log Aggregation
+* Threat Detection
+* Vulnerability Management
+* Incident Response
+
+### Access & Governance
+* Identity & Access Management (IAM)
+* Active Directory
+* Role-Based Access Control (RBAC)
+* HIPAA/PII Data Handling
+* Risk Assessment
+* Security Policy
+
+### Infrastructure & Automation
+* Firewalls (Palo Alto Networks)
+* Group Policy Management
+* Linux
+* Python
+* PowerShell
+* Bash
+* Virtualization
 
 ---
 
