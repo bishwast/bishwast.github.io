@@ -34,4 +34,16 @@ This project simulates a small-scale SOC environment to demonstrate proficiency 
 
 ---
 
+## Featured Case Study
+### [Hybrid SIEM Architecture & Threat Hunting](/2025/12/14/hybrid-siem-architecture.html)
+**Tech Stack:** Splunk Enterprise, NVIDIA DGX, Suricata
+
+I designed a hybrid detection pipeline that integrates standard SIEM logging with GPU-accelerated anomaly detection. This project demonstrates advanced "Blue Team" management by reducing Mean Time to Detect (MTTD) for APT lateral movement.
+
+[![Project Screenshot](/images/splunk-arch.png)](/2025/12/14/hybrid-siem-architecture.html)
+
+[**Read the full Case Study →**](/2025/12/14/hybrid-siem-architecture.html)
+
+---
+
 ### **[Link to Project Repository on GitHub](https://github.com/bishwast/splunk-siem-lab)**
