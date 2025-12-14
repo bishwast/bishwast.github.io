@@ -5,13 +5,11 @@ permalink: /
 author_profile: true
 ---
 
-# About Me
-
 **Professional Summary**
 
-I am a highly driven cybersecurity professional specializing in the defense and operational efficiency of enterprise environments. My core passion is **Blue Team Operations**, focusing on proactive threat mitigation within the Security Operations Center (SOC). I bring practical, hands-on experience in the full incident lifecycle—from SIEM deployment and custom **Threat Detection** development (Splunk, Python) to executing **Incident Response** procedures.
+I am a dedicated cybersecurity professional specializing in the defense and operational efficiency of enterprise environments. My expertise is focused on **Blue Team Operations**, driving proactive threat mitigation within the Security Operations Center (SOC). I possess practical, hands-on experience across the full incident lifecycle—from SIEM deployment and custom **Threat Detection** development (Splunk, Python) to executing validated **Incident Response** procedures.
 
-As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles in **SOC Analysis, Security Monitoring, or Incident Response**. I leverage technical controls (Palo Alto Firewalls) to enforce compliance (HIPAA, PII Data Handling) and maintain a robust defense posture.
+As a **Master of Science in Cybersecurity Management (MSCM)** Candidate, **Expected to graduate in December 2026**, I am actively seeking full-time roles in **SOC Analysis, Security Monitoring, or Incident Response**. I leverage technical controls (Palo Alto Firewalls) to enforce regulatory compliance (HIPAA, PII Data Handling) and maintain a robust organizational security posture.
 
 ---
 
