@@ -15,7 +15,7 @@ As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles 
 
 ---
 
-## 🛡️ Core Blue Team Skills
+## Core Blue Team Skills
 
 | Functional Area | Expertise |
 | :--- | :--- |
@@ -25,7 +25,7 @@ As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles 
 
 ---
 
-## 🏃 Interests and Personal Focus
+## Interests and Personal Focus s
 
 Beyond cybersecurity, I maintain discipline and focus through several activities:
 
