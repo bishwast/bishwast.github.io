@@ -26,7 +26,7 @@ I am currently seeking opportunities in **Security Operations (SOC)** or **Detec
 
 ---
 
-### Current Research Capstone
+### 🟡 Current Research Capstone
 **Project Title:** Hybrid SIEM Architecture: AI-Driven Threat Detection (Splunk + NVIDIA DGX)
 <br>
 **Status:** *Active Development / Research Phase*
