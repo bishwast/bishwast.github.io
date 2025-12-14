@@ -1,4 +1,13 @@
+---
+layout: archive
+title: "About Me"
+permalink: /
+author_profile: true
+---
+
 # About Me
+
+**Professional Summary**
 
 I am a highly driven cybersecurity professional specializing in the defense and operational efficiency of enterprise environments. My core passion is **Blue Team Operations**, focusing on proactive threat mitigation within the Security Operations Center (SOC). I bring practical, hands-on experience in the full incident lifecycle—from SIEM deployment and custom **Threat Detection** development (Splunk, Python) to executing **Incident Response** procedures.
 
@@ -6,7 +15,7 @@ As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles 
 
 ---
 
-## Core Blue Team Skills
+## 🛡️ Core Blue Team Skills
 
 | Functional Area | Expertise |
 | :--- | :--- |
@@ -16,7 +25,7 @@ As an MSCM Candidate (Expected Dec 2026), I am actively seeking full-time roles 
 
 ---
 
-## Interests and Personal Focus
+## 🏃 Interests and Personal Focus
 
 Beyond cybersecurity, I maintain discipline and focus through several activities:
 
