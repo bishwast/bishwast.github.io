@@ -1,49 +1,65 @@
 ---
-title: "SIEM Lab and Threat Detection Project"
-excerpt: "Designed and deployed a Security Operations Center (SOC) pipeline using Splunk Enterprise and Linux to validate threat detection and incident response capabilities."
+title: "Advanced Hybrid SIEM: Splunk + NVIDIA DGX"
+excerpt: "Architected a hybrid SOC pipeline integrating Splunk Enterprise with GPU-accelerated anomaly detection (NVIDIA RAPIDS) to detect APT lateral movement."
 collection: portfolio
-date: 2025-12-13
+date: 2024-12-14
 categories:
-  - Cybersecurity
-  - SOC
+  - Detection Engineering
+  - SIEM Architecture
+  - Threat Hunting
 tags:
   - Splunk
-  - SIEM
-  - Threat Detection
-  - Linux
+  - NVIDIA DGX
+  - Suricata
+  - PySpark
 ---
 
-## Project Overview
+## 🚨 Project Executive Summary
+This capstone project moves beyond standard SIEM deployment to simulate a **Next-Generation SOC**. I designed a hybrid detection pipeline that processes standard telemetry (Sysmon, Zeek) in **Splunk Enterprise** while offloading heavy behavioral analysis to an **NVIDIA DGX** GPU cluster.
 
-This project simulates a small-scale SOC environment to demonstrate proficiency in key blue team functions, including log aggregation, query language development (SPL), alert creation, and incident simulation.
-
-### 1. SIEM Infrastructure Deployment
-* **Platform:** Splunk Enterprise (Free License) deployed on a virtualized Ubuntu Linux server.
-* **Log Ingestion:** Configured Universal Forwarders to collect system logs (syslog, security events) from a Windows Domain Controller and Linux endpoint.
-* **Parsing & Indexing:** Created custom sourcetypes and performed initial field extraction to normalize key security data points (e.g., source IP, user, event ID).
-
-### 2. Threat Detection Rule Creation
-* **Use Cases:** Focused on common MITRE ATT&CK techniques, specifically brute-force attacks and privilege escalation attempts.
-* **SPL Development:** Developed complex Search Processing Language (SPL) queries to create threshold-based alerts (e.g., "5 failed logins within 60 seconds from the same source IP").
-* **Visualization:** Built a custom dashboard in Splunk to monitor real-time security events and provide a high-level overview of the environment's security posture.
-
-### 3. Incident Simulation and Validation
-* **Simulation:** Utilized Python and Bash scripts to simulate network traffic and logon failures that violate the defined alert thresholds.
-* **Validation:** Verified that the Splunk alerts fired correctly and captured the necessary metadata for initial triage, validating the effectiveness of the security controls.
-* **Documentation:** Maintained detailed documentation of the architecture, alert logic, and incident response procedures.
+**Key Outcome:** Reduced "Mean Time to Detect" (MTTD) for "low-and-slow" C2 beacons by utilizing unsupervised learning (Isolation Forest) on historical network datasets.
 
 ---
 
-## Featured Case Study
-### [Hybrid SIEM Architecture & Threat Hunting](/2024/12/10/hybrid-siem-architecture.html)
-**Tech Stack:** Splunk Enterprise, NVIDIA DGX, Suricata
+## 📸 Phase 1: Architecture & Visibility
+A managed SIEM requires granular visibility. I architected the ingestion pipeline to normalize data from **Network Traffic (Stream)**, **Intrusion Detection Systems (Suricata)**, and **Endpoint Telemetry (Sysmon)**.
 
-I designed a hybrid detection pipeline that integrates standard SIEM logging with GPU-accelerated anomaly detection. This project demonstrates advanced "Blue Team" management by reducing Mean Time to Detect (MTTD) for APT lateral movement.
-
-[![Project Screenshot](/images/splunk-arch.png)](/2024/12/10/hybrid-siem-architecture.html)
-
-[**Read the full Case Study →**](/2024/12/10/hybrid-siem-architecture.html)
+![Data Architecture Dashboard](/images/splunk-arch.png)
+*Fig 1: Verified ingestion of diverse data sources (Suricata, HTTP Stream, WinEventLog) proving full visibility into the attack surface.*
 
 ---
 
-### **[Link to Project Repository on GitHub](https://github.com/bishwast/splunk-siem-lab)**
+## 📈 Phase 2: Threat Detection & Incident Timeline
+Using the **Splunk BOTS (Boss of the SOC)** dataset, I validated the system's ability to handle high-volume event storms. By analyzing the event distribution histogram, I identified the initial breach window occurring in **August 2016**.
+
+![Attack Timeline](/images/splunk-timeline.jpg)
+*Fig 2: Identifying the "Attack Spike" - separating normal baseline traffic from the anomaly.*
+
+---
+
+## 🔍 Phase 3: Deep Dive Forensics
+Finding the needle in the haystack. I utilized Splunk's Field Extractor to parse raw Fortinet Firewall logs. In this specific investigation, I traced a **Denied Connection** attempt from a suspicious external IP (Russian Federation) targeting internal assets.
+
+![Log Forensics](/images/splunk-details.jpg)
+*Fig 3: Granular analysis of Firewall traffic logs including Source IP, Destination Country, and Action taken.*
+
+---
+
+## 🛠 Technical Implementation Details
+
+### 1. Infrastructure Deployment
+* **Platform:** Splunk Enterprise deployed on Ubuntu Linux (Search Head/Indexer).
+* **AI Integration:** NVIDIA DGX running Apache Spark (RAPIDS) for anomaly detection jobs.
+* **Log Ingestion:** Configured Universal Forwarders to collect system logs from Windows Domain Controllers.
+
+### 2. Detection Logic (SPL)
+* **Use Cases:** Mapped 5 distinct attack behaviors (Scanning, Execution, C2) to **MITRE ATT&CK** IDs.
+* **Alerting:** Developed custom SPL queries to create threshold-based alerts (e.g., "Process Injection in Temp folders").
+
+### 3. Incident Simulation
+* **Validation:** Verified detection efficacy using "Atomic Red Team" scripts to simulate credential dumping.
+* **Response:** Maintained detailed documentation of the architecture, alert logic, and incident response procedures.
+
+---
+
+### **[View Source Code on GitHub](https://github.com/bishwast/splunk-siem-lab)**
