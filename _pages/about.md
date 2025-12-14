@@ -41,7 +41,7 @@ As a **Master of Science in Cybersecurity Management (MSCM)** Candidate, **Expec
 
 ---
 
-## Interests and Personal Focus s
+## Interests and Personal Focus
 
 Beyond cybersecurity, I maintain discipline and focus through several activities:
 
