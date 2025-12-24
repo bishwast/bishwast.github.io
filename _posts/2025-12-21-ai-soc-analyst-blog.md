@@ -96,7 +96,7 @@ By hooking into **Rule 5760 (SSH authentication failure)** and implementing **st
 
 This approach ensured that alerts represented **behavioral attack patterns**, not isolated failures. The AI component was then able to focus on meaningful, aggregated events—reducing noise and aligning with real SOC triage workflows.
 
-![Final Output Validating Trigger](https://drive.google.com/uc?export=view&id=1Rcu1c6qkpsUTrG8tRkpy7rq6HYY4ay77)
+![Final Output Validating Trigger](https://drive.google.com/uc?export=view&id=1D-SEsYl-r6pLp7A9BSL82bEtM4wp-6vN)
 
 ---
 
