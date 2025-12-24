@@ -45,7 +45,7 @@ Early attempts followed conventional lab designs using **VirtualBox** and **KVM*
 
 By installing the **Wazuh Manager and Indexer directly on the host operating system**, I removed unnecessary abstraction layers and gained direct access to the system’s unified memory architecture. A Python virtual environment (`.venv`) was used to isolate automation dependencies while maintaining system stability. This design decision later proved critical for running **Llama 3.2 efficiently on GPU** without resource contention.
 
-![Wazuh-Agent Successfully Installed](https://drive.google.com/uc?export=view&id= 1UvB_-7YLdxFbV_oCIsRgzMAPvWIkjBbf)
+![Wazuh-Agent Successfully Installed](https://drive.google.com/uc?export=view&id=1UvB_-7YLdxFbV_oCIsRgzMAPvWIkjBbf)
 
 ![Wazuh Installation Completion](https://drive.google.com/uc?id=1_Fp_KKp6ZRjx30CDg8-IdVbTfVLZE0gJ)
 
