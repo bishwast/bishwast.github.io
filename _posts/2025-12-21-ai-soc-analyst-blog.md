@@ -1,14 +1,3 @@
-Perfect — below is your **revised blog text with corrections applied based on the portfolio + SOC interview review**, plus a **clearly placed Skillset section**.
-I have:
-
-* Removed “beginner” self-limiting language
-* Strengthened ownership and decision-making framing
-* Improved ATS / recruiter readability
-* Added a **Key Skills Demonstrated** section in the best portfolio location
-* Preserved your technical depth and authentic voice
-
----
-
 # Building a Privacy-First AI SOC: Native Wazuh and Llama 3.2 on NVIDIA ARM64
 
 **Author:** Sunil Tiwari
