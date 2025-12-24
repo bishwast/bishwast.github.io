@@ -45,9 +45,9 @@ Early attempts followed conventional lab designs using **VirtualBox** and **KVM*
 
 By installing the **Wazuh Manager and Indexer directly on the host operating system**, I removed unnecessary abstraction layers and gained direct access to the system’s unified memory architecture. A Python virtual environment (`.venv`) was used to isolate automation dependencies while maintaining system stability. This design decision later proved critical for running **Llama 3.2 efficiently on GPU** without resource contention.
 
-![Wazuh-Agent Successfully Installed](/portfolio/bishwast.github.io/images/portfolio_images/wazuh-agent_installed.png)
+![Wazuh-Agent Successfully Installed](/images/portfolio_images/wazuh-agent_installed.png)
 
-![Wazuh Installation Completion](/portfolio/bishwast.github.io/images/portfolio_images/wazuh_installation_complete.png)
+![Wazuh Installation Completion](/images/portfolio_images/wazuh_installation_complete.png)
 
 
 ---
@@ -96,7 +96,7 @@ By hooking into **Rule 5760 (SSH authentication failure)** and implementing **st
 
 This approach ensured that alerts represented **behavioral attack patterns**, not isolated failures. The AI component was then able to focus on meaningful, aggregated events—reducing noise and aligning with real SOC triage workflows.
 
-![Final Output Validating Trigger](/portfolio/bishwast.github.io/images/portfolio_images/finale_result.png)
+![Final Output Validating Trigger](/images/portfolio_images/finale_result.png)
 
 ---
 
@@ -174,4 +174,4 @@ This AI-assisted workflow reflects real SOC priorities:
 
 Rather than replacing analysts, the system acts as a **force multiplier**, allowing human analysts to focus on validation and decision-making instead of manual triage.
 
-![AI Analyst Proof: Python Script Output](/portfolio/bishwast.github.io/images/portfolio_images/ai_analyst_proof.png)
+![AI Analyst Proof: Python Script Output](/images/portfolio_images/ai_analyst_proof.png)
