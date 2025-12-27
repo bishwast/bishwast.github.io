@@ -13,7 +13,7 @@ title                    : "Sunil Tiwari - SOC Analyst"
 title_separator          : "-"
 name                     : &name "Sunil Tiwari"
 description              : &description "Cybersecurity professional specializing in SOC methodologies and GRC."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://github.com/bishwast # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://bishwast.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bishwast/bishwast.github.io"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "bishwast77"
+  github           : "bishwast"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
