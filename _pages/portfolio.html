@@ -7,8 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
+{% comment %} 
+  Sort the portfolio collection by date and reverse it 
+  to show the newest projects first. 
+{% endcomment %}
 
-{% for post in site.portfolio %}
+{% assign posts = site.portfolio | sort: 'date' | reverse %}
+
+{% for post in posts %}
   {% include archive-single.html %}
 {% endfor %}
-
