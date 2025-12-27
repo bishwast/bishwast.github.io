@@ -5,13 +5,13 @@ permalink: /
 author_profile: true
 ---
 
-# The Modern Defender
+# The Autonomous Defender
 
-I am a Cybersecurity Management Master’s candidate bridging the gap between traditional Security Operations and modern Data Science. Unlike the standard approach to Blue Teaming, I focus on building high-fidelity detection pipelines that leverage both rule-based SIEM logic and behavioral anomaly detection.
+I am a Cybersecurity Management Master’s candidate specializing in the intersection of **Security Operations (SOC)** and **Applied AI**. My work focuses on moving the industry from passive monitoring to **Autonomous Remediation**, building high-fidelity detection pipelines that leverage local LLMs and hardware-accelerated infrastructure.
 
-My core research focuses on designing a hybrid security architecture integrating **Splunk Enterprise** with **NVIDIA DGX** infrastructure. This unique setup allows me to simulate enterprise-scale threat hunting scenarios using **Apache Spark** and **RAPIDS**, moving beyond basic alert monitoring to focus on **Detection Engineering**—optimizing how threats are identified, triaged, and mitigated.
+My core expertise lies in designing privacy-first security architectures on **NVIDIA DGX (ARM64)** hardware. By integrating **Wazuh SIEM** with local **Llama 3.2** models, I have successfully engineered an end-to-end autonomous SOC loop that detects, analyzes, and mitigates threats—such as brute-force attacks—without cloud dependency or per-token costs.
 
-I am currently seeking opportunities in **Security Operations (SOC)** or **Detection Engineering** where I can apply data-driven strategies to defend critical infrastructure.
+I am currently seeking opportunities in **Security Operations (SOC)** or **Detection Engineering** where I can apply autonomous, data-driven strategies to defend critical infrastructure.
 
 ---
 
@@ -19,25 +19,26 @@ I am currently seeking opportunities in **Security Operations (SOC)** or **Detec
 
 | Domain | Skills & Tools |
 | :--- | :--- |
-| **SIEM & Observability** | Splunk Enterprise (SPL), Sysmon, Zeek, Log Parsing, CIM |
-| **Data & AI** | NVIDIA DGX, Apache Spark (PySpark), Anomaly Detection, NVIDIA RAPIDS |
-| **Defense Frameworks** | MITRE ATT&CK, Cyber Kill Chain, NIST CSF |
-| **Infrastructure** | Linux (Ubuntu/RHEL), Windows Server, Virtualization, Docker |
+| **SIEM & Response** | Wazuh (AARCH64), Splunk Enterprise (SPL), Active Response Automation, Iptables |
+| **AI & Automation** | Ollama (Llama 3.2), Python 3.12 (PEP 668), Apache Spark, NVIDIA RAPIDS |
+| **Detection Engineering** | Custom PCRE2 Decoders, Correlation Rules, MITRE ATT&CK Mapping |
+| **Infrastructure** | NVIDIA DGX (ARM64), Linux Network Namespaces, Docker, Virtualization |
 
 ---
 
-### 🟡 Current Research Capstone
-**Project Title:** Hybrid SIEM Architecture: AI-Driven Threat Detection (Splunk + NVIDIA DGX)
-<br>
-**Status:** *Active Development / Research Phase*
+### 🟢 Featured Project: AI-SOC Analyst (Phase 4)
+**Status:** *Full Project Completion (Autonomous Defense Implemented)*
 
-Traditional SIEM deployments often struggle with "alert fatigue" and the inability to process massive historical datasets in real-time. This project explores a modern solution: offloading heavy anomaly detection to GPU-accelerated infrastructure.
+Traditional SOCs suffer from alert fatigue and manual response delays. I have engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle on-premise.
 
-**Key Architectures:**
-* **Ingestion:** Pipeline ingests standard security logs (Sysmon/Zeek) into **Splunk Enterprise** for immediate triage.
-* **Computation:** High-volume network capture data is routed to an **NVIDIA DGX** environment.
-* **Detection:** Using **Apache Spark** and **RAPIDS**, the system applies unsupervised learning models (Isolation Forest) to detect "low-and-slow" beacons that static correlation rules miss.
 
-**Targeted Outcomes:**
-* Reduction in False Positives via Risk-Based Alerting (RBA).
-* Utilizing GPU acceleration to reduce query time on historical datasets.
+
+**Core Accomplishments:**
+* **Autonomous Remediation:** Developed a Python-based engine that extracts attacker IPs from Wazuh alerts and dynamically updates the Linux kernel firewall (`iptables`) to isolate threats in under 15 seconds.
+* **Local LLM Integration:** Integrated **Llama 3.2** via the Ollama API to provide real-time, privacy-compliant executive summaries of security incidents without logs ever leaving the local network.
+* **ARM64 Optimization:** Successfully deployed the entire stack natively on **NVIDIA DGX Spark**, bypassing Docker overhead to maximize unified memory performance for high-volume log parsing.
+
+**Project Impact:**
+* **Zero-Cost Intelligence:** Eliminated cloud API costs for log summarization.
+* **Reduced MTTR:** Achieved near-instant Mean Time to Respond (MTTR) through automated network isolation.
+* **Data Sovereignty:** Proved that enterprise-grade AI threat analysis can be performed in 100% air-gapped or restricted environments.
