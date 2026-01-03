@@ -10,8 +10,6 @@ This project establishes a fully operational **Agentic Security Operations Cente
 
 The system integrates **Wazuh** (SIEM) for telemetry, **Llama 3.2** (Local AI) for reasoning, and a custom **Streamlit Console** for governance—ensuring 100% data sovereignty with no cloud API dependencies.
 
-
-
 ---
 
 ## **The Architecture (Phase 9)**
@@ -48,13 +46,11 @@ To solve the "AI hallucinations" risk, I built a dedicated **Analyst Dashboard**
 *Figure 1: The custom dashboard displaying a real-time alert. The AI has analyzed the threat and is awaiting human authorization to execute the block.*
 
 ![Analyst Dashboard](../images/phase9_dashboard_success.png)
-*(Note: Replace with your actual image path)*
 
 ### **Real-Time Detection Bridge**
 *Figure 2: The backend bridge instantly detecting a live **Hydra Brute Force Attack** during adversary emulation testing.*
 
 ![Bridge Terminal](../images/phase8_bridge_success.png)
-*(Note: Replace with your actual image path)*
 
 ---
 
