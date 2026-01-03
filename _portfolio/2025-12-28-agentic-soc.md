@@ -45,19 +45,19 @@ To solve the "AI hallucinations" risk, I built a dedicated **Analyst Dashboard**
 ### **The Analyst Console**
 *Figure 1: The custom dashboard displaying a real-time alert. The AI has analyzed the threat and is awaiting human authorization to execute the block.*
 
-![Analyst Dashboard](images/phase9_dashboard_success.png)
+![Analyst Dashboard](/images/phase9_dashboard_success.png)
 
 ### **Real-Time Detection Bridge**
 *Figure 2: The backend bridge instantly detecting a live **Hydra Brute Force Attack** during adversary emulation testing.*
 
-![Bridge Terminal](images/phase8_bridge_success.png)
+![Bridge Terminal](/images/phase8_bridge_success.png)
 
 ---
 
 ## **Project Resources**
 
 * **GitHub Repository:** [agentic-soc-arm64](https://github.com/bishwast/Agentic-SOC)
-* **Technical Report:** [Download Full Architecture PDF](files/Agentic%20Soc%20Model%20Documentation.pdf)
+* **Technical Report:** [Download Full Architecture PDF](/files/Agentic%20Soc%20Model%20Documentation.pdf)
 
 
 ---
