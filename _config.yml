@@ -359,3 +359,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Homepage Feature Row
+feature_row:
+  - image_path: /images/dashboard_screenshot.png
+    alt: "Agentic SOC Dashboard"
+    title: "Agentic SOC: AI-Driven IR Pipeline"
+    excerpt: "Automated SOAR pipeline on NVIDIA DGX hardware using Llama 3.2 and CrewAI to eliminate alert fatigue."
+    url: "/portfolio/2026-02-21-agentic-soc/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"

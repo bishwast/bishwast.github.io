@@ -3,7 +3,9 @@ layout: archive
 title: "About Me"
 permalink: /
 author_profile: true
+feature_row: feature_row
 ---
+{% include feature_row %}
 
 # The Autonomous Defender
 
