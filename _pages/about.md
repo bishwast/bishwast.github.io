@@ -28,7 +28,7 @@ I am currently seeking opportunities in **Security Operations (SOC)** or **Detec
 
 ---
 
-### 🟢 Featured Project: AI-SOC Analyst (Phase 4)
+### 🟢 Featured Project: AI-SOC Analyst
 **Status:** Full Project Completion (Autonomous Defense Implemented)
 
 Traditional SOCs suffer from alert fatigue and manual response delays. I have engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle on-premise using Multi-Agent AI Orchestration.
@@ -50,3 +50,5 @@ Traditional SOCs suffer from alert fatigue and manual response delays. I have en
 * **Zero-Cost Intelligence:** Eliminated recurring cloud API costs by hosting the inference layer locally.
 
 * **Hardware Optimization:** Optimized the stack for ARM64 architecture, leveraging unified memory for high-volume neural inference on NVIDIA DGX.
+
+[View Technical Repository](https://github.com/bishwast/Agentic-SOC)
