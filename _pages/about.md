@@ -29,18 +29,24 @@ I am currently seeking opportunities in **Security Operations (SOC)** or **Detec
 ---
 
 ### 🟢 Featured Project: AI-SOC Analyst (Phase 4)
-**Status:** *Full Project Completion (Autonomous Defense Implemented)*
+**Status:** Full Project Completion (Autonomous Defense Implemented)
 
-Traditional SOCs suffer from alert fatigue and manual response delays. I have engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle on-premise.
+Traditional SOCs suffer from alert fatigue and manual response delays. I have engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle on-premise using Multi-Agent AI Orchestration.
 
+**Technical Milestones:**
 
+* **Multi-Agent Orchestration:** Architected a dual-agent pipeline using CrewAI. A 'Senior SOC Analyst' performs deep reasoning against RAG-based playbooks, while a 'Security Auditor' verifies actions to eliminate false positives and ensure governance.
 
-**Core Accomplishments:**
-* **Autonomous Remediation:** Developed a Python-based engine that extracts attacker IPs from Wazuh alerts and dynamically updates the Linux kernel firewall (`iptables`) to isolate threats in under 15 seconds.
-* **Local LLM Integration:** Integrated **Llama 3.2** via the Ollama API to provide real-time, privacy-compliant executive summaries of security incidents without logs ever leaving the local network.
-* **ARM64 Optimization:** Successfully deployed the entire stack natively on **NVIDIA DGX Spark**, bypassing Docker overhead to maximize unified memory performance for high-volume log parsing.
+* **Resilience & Concurrency:** Validated system stability against 'Hydra-style' high-frequency brute-force simulations. Implemented an asynchronous idempotency layer that achieved a 99% latency reduction (from ~30s to <10ms) for recurring threats.
 
-**Project Impact:**
-* **Zero-Cost Intelligence:** Eliminated cloud API costs for log summarization.
-* **Reduced MTTR:** Achieved near-instant Mean Time to Respond (MTTR) through automated network isolation.
-* **Data Sovereignty:** Proved that enterprise-grade AI threat analysis can be performed in 100% air-gapped or restricted environments.
+* **Supply Chain Hardening:** Navigated the March 2026 LiteLLM/Pydantic supply chain compromise. Performed environment auditing and version pinning to maintain 100% system integrity during the TeamPCP security incident.
+
+* **Active Response Dispatcher:** Engineered a Python-based engine that extracts attacker context and triggers real-time firewall isolation `(iptables)` and MFA challenges based on AI-audited recommendations.
+
+**Quantifiable Impact:**
+
+* **Instant MTTR:** Reduced Mean Time to Respond (MTTR) to near-zero through automated network isolation.
+
+* **Zero-Cost Intelligence:** Eliminated recurring cloud API costs by hosting the inference layer locally.
+
+* **Hardware Optimization:** Optimized the stack for ARM64 architecture, leveraging unified memory for high-volume neural inference on NVIDIA DGX.
