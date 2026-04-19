@@ -32,4 +32,4 @@ On April 19, 2026, the Agentic SOC was subjected to high-frequency concurrency t
 * **Orchestration:** CrewAI (Analyst & Auditor Agents)
 * **Framework:** FastAPI / Async Python 3.12
 
-[View Technical Repository](https://github.com/suniltiwari/agentic_soc)
+[View Technical Repository](https://github.com/bishwast/Agentic-SOC)
