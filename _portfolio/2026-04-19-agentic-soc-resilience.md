@@ -5,7 +5,7 @@ collection: portfolio
 date: 2026-04-19
 ---
 
-<pre>
+```
 graph TD
     A[SIEM Alert] --> B{Cache Check}
     B -- Hit --> C[Return Stored Action]
@@ -17,7 +17,7 @@ graph TD
     G -- No Match --> I[Manual Review Flag]
     H --> J[Return Response]
     I --> J
-</pre>
+```
 
 ### Project Milestone: Phase 10 - Resilience Engineering
 On April 19, 2026, the Agentic SOC was subjected to high-frequency concurrency testing to simulate an active brute-force scenario.
