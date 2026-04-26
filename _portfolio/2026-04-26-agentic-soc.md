@@ -21,3 +21,5 @@ Built as the final phase of my MSCM research at the University of Utah, the **AT
 
 ### Deployment Environment
 The system is optimized for **NVIDIA DGX Spark** (AARCH64), utilizing local LLM inference via **Ollama** to ensure data sovereignty and low-latency incident response.
+
+[View GitHub Repo](https://github.com/bishwast/Agentic-SOC)
