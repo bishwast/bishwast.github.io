@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Sunil Tiwari - SOC Analyst"
+title                    : "Sunil Tiwari - AI Security Engineer"
 title_separator          : "-"
 name                     : &name "Sunil Tiwari"
-description              : &description "Cybersecurity professional specializing in SOC methodologies and GRC."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Specializing in Autonomous Threat Containment (ATCE) and AI-driven Security Orchestration." 
 url                      : https://suniltiwari.me # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Sunil Tiwari"
   pronouns         : # example: "she/her"  
-  bio              : "Cybersecurity professional specializing in SOC methodologies and GRC."
+  bio              : "MSCM Candidate @ University of Utah | Developing Autonomous Incident Response on NVIDIA DGX."
   location         : "Spanish Fork, UT"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -362,10 +362,10 @@ compress_html:
 
 # Homepage Feature Row
 feature_row:
-  - image_path: /images/dashboard_screenshot.png
-    alt: "Agentic SOC Dashboard"
-    title: "Agentic SOC: AI-Driven IR Pipeline"
-    excerpt: "Automated SOAR pipeline on NVIDIA DGX hardware using Llama 3.2 and CrewAI to eliminate alert fatigue."
-    url: "/portfolio/2026-02-21-agentic-soc/"
-    btn_label: "View Project"
+  - image_path: /images/test_12_final.png
+    alt: "ATCE Engine Dashboard"
+    title: "ATCE: Autonomous Threat Containment"
+    excerpt: "A multi-agent orchestration engine that bridges AI reasoning with deterministic network defense using Llama 3.2 and Policy-702."
+    url: "portfolio/2026-04-26-agentic-soc/" 
+    btn_label: "Explore ATCE Engine"
     btn_class: "btn--primary"
