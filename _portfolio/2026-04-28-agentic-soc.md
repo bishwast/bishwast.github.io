@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Architecting a Hybrid-LLM Autonomous SOC with Active Defense Governance"
+description: "Bridging the gap between generative AI and deterministic enterprise security."
+category: portfolio
+---
+
 # Architecting a Hybrid-LLM Autonomous SOC with Active Defense Governance
 *Bridging the gap between generative AI and deterministic enterprise security.*
 
