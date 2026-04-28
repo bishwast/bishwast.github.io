@@ -9,11 +9,11 @@ feature_row: feature_row
 
 # The Autonomous Defender
 
-I am a Cybersecurity Management Master’s candidate specializing in the intersection of **Security Operations (SOC)** and **Applied AI**. My work focuses on moving the industry from passive monitoring to **Autonomous Remediation**, building high-fidelity detection pipelines that leverage local LLMs and hardware-accelerated infrastructure.
+I am a Cybersecurity Management Master’s candidate specializing in the intersection of **Security Automation**, **Systems Integration**, and **Agentic AI**. My work focuses on bridging the gap between the cognitive power of generative AI and the strict, deterministic safety required in enterprise security.
 
-My core expertise lies in designing privacy-first security architectures on **NVIDIA DGX (ARM64)** hardware. By integrating **Wazuh SIEM** with local **Llama 3.2** models, I have successfully engineered an end-to-end autonomous SOC loop that detects, analyzes, and mitigates threats—such as brute-force attacks—without cloud dependency or per-token costs.
+My core expertise lies in architecting hybrid-inference pipelines on high-performance infrastructure like the **NVIDIA DGX**. By orchestrating localized edge models (Llama 3.2) alongside cloud intelligence (GPT-4o), I engineer end-to-end autonomous SOC loops that detect, analyze, and mitigate threats without human intervention—safeguarded by strict programmatic governance to prevent AI-driven outages.
 
-I am currently seeking opportunities in **Security Operations (SOC)** or **Detection Engineering** where I can apply autonomous, data-driven strategies to defend critical infrastructure.
+I am currently seeking opportunities in **Security Automation**, **Detection Engineering**, or **Systems Integration** where I can apply autonomous, data-driven strategies to defend critical infrastructure.
 
 ---
 
@@ -21,34 +21,29 @@ I am currently seeking opportunities in **Security Operations (SOC)** or **Detec
 
 | Domain | Skills & Tools |
 | :--- | :--- |
-| **SIEM & Response** | Wazuh (AARCH64), Splunk Enterprise (SPL), Active Response Automation, Iptables |
-| **AI & Automation** | Ollama (Llama 3.2), Python 3.12 (PEP 668), Apache Spark, NVIDIA RAPIDS |
-| **Detection Engineering** | Custom PCRE2 Decoders, Correlation Rules, MITRE ATT&CK Mapping |
-| **Infrastructure** | NVIDIA DGX (ARM64), Linux Network Namespaces, Docker, Virtualization |
+| **Agentic AI & Orchestration** | CrewAI, LangChain, Hybrid-LLM Inference, Prompt Engineering, Llama 3.2, OpenAI GPT-4o |
+| **Security Engineering** | Autonomous Incident Response, Active Defense, SIEM, Forensic Triage, Linux Kernel Networking (`iptables`) |
+| **Systems Integration** | Python (FastAPI/Uvicorn), Docker Containerization, Regex Telemetry Pipelines, RESTful APIs |
+| **Infrastructure** | NVIDIA DGX (ARM64), Azure (AZ-500 Candidate), Active Directory, PowerShell |
 
 ---
 
-### 🟢 Featured Project: AI-SOC Analyst
-**Status:** Full Project Completion (Autonomous Defense Implemented)
+### 🟢 Featured Project: Hybrid-LLM Autonomous SOC & Active Defense Framework
+**Status:** Architecture Complete & Validated
 
-Traditional SOCs suffer from alert fatigue and manual response delays. I have engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle on-premise using Multi-Agent AI Orchestration.
+Traditional SOCs suffer from alert fatigue, while unconstrained "AI Security Agents" present massive operational risks to host infrastructure. I engineered a modern solution: an autonomous security loop that handles the entire incident lifecycle while enforcing strict deterministic governance over AI actions.
 
 **Technical Milestones:**
 
-* **Multi-Agent Orchestration:** Architected a dual-agent pipeline using CrewAI. A 'Senior SOC Analyst' performs deep reasoning against RAG-based playbooks, while a 'Security Auditor' verifies actions to eliminate false positives and ensure governance.
-
-* **Resilience & Concurrency:** Validated system stability against 'Hydra-style' high-frequency brute-force simulations. Implemented an asynchronous idempotency layer that achieved a 99% latency reduction (from ~30s to <10ms) for recurring threats.
-
-* **Supply Chain Hardening:** Navigated the March 2026 LiteLLM/Pydantic supply chain compromise. Performed environment auditing and version pinning to maintain 100% system integrity during the TeamPCP security incident.
-
-* **Active Response Dispatcher:** Engineered a Python-based engine that extracts attacker context and triggers real-time firewall isolation `(iptables)` and MFA challenges based on AI-audited recommendations.
+* **Hybrid-LLM Orchestration:** Architected a multi-agent pipeline utilizing CrewAI. A local 'Senior SOC Analyst' (Llama 3.2) performs privacy-preserving behavioral triage on raw logs, while a 'Security Auditor' (GPT-4o) executes external CVE validation and policy compliance.
+* **Ephemeral Telemetry Pipelines:** Integrated isolated Docker honeypots with a custom FastAPI backend, engineering regex-driven Python scripts to dynamically stream attacker IPs from ephemeral containers directly into the cognitive pipeline.
+* **Deterministic Active Defense:** Solved the risk of AI-driven Self-Denial-of-Service (DoS) by engineering a hardcoded Python governance layer. This layer intercepts AI actuation commands and evaluates them against critical infrastructure whitelists before execution.
+* **Autonomous Actuation:** Achieved zero-intervention threat containment by programmatically triggering dynamic `iptables` drop rules against validated, non-whitelisted malicious endpoints.
 
 **Quantifiable Impact:**
 
-* **Instant MTTR:** Reduced Mean Time to Respond (MTTR) to near-zero through automated network isolation.
-
-* **Zero-Cost Intelligence:** Eliminated recurring cloud API costs by hosting the inference layer locally.
-
-* **Hardware Optimization:** Optimized the stack for ARM64 architecture, leveraging unified memory for high-volume neural inference on NVIDIA DGX.
+* **Architectural Safety:** Proved that AI can be safely deployed for active network defense by separating cognitive reasoning from programmatic execution.
+* **Instant MTTR:** Reduced Mean Time to Respond (MTTR) to near-zero through automated, dynamically governed network isolation.
+* **Optimized Systems Integration:** Successfully unified containerized infrastructure, real-time API streaming, and hybrid AI inference into a single, stable deployment on NVIDIA DGX hardware.
 
 [View Technical Repository](https://github.com/bishwast/Agentic-SOC)
