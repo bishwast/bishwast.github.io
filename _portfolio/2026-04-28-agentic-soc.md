@@ -31,8 +31,8 @@ To solve this, I engineered a **Deterministic Governance Layer** in Python. Befo
 ### **The Proof of Work: Single-Shot Execution**
 In the final validation test, the pipeline was subjected to a targeted RCE payload from an ephemeral Docker IP. 
 
-![test images1](images/uvicorn_final_sst-1.png)
-![test images2](images/uvicorn_final_sst-2.png)
+![test images1](/images/uvicorn_final_sst-1.png)
+![test images2](/images/uvicorn_final_sst-2.png)
 
 As shown in the execution trace:
 * The Local Llama model successfully identified the high-frequency burst.
