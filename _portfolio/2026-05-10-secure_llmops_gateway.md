@@ -7,7 +7,7 @@ date: 2026-05-10
 
 ### Project Title: Secure LLMOps Gateway: Stateless DLP & Local Inference Proxy
 
-#### Project Link: https://github.com/bishwast/secure-llmops-gateway
+#### Project Link: [View GitHub Repo](https://github.com/bishwast/secure-llmops-gateway)
 
 **Description:**
 Designed and engineered a production-ready, privacy-preserving security proxy to intercept, sanitize, and audit Generative AI prompt traffic. This gateway implements a Data Loss Prevention (DLP) layer to enforce data-in-motion compliance (supporting PCI-DSS and SOC 2 frameworks) before routing prompt payloads to an air-gapped, local inference engine.
