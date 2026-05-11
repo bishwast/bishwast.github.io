@@ -52,3 +52,30 @@ Traditional SOCs suffer from alert fatigue and manual response delays. I have en
 * **Hardware Optimization:** Optimized the stack for ARM64 architecture, leveraging unified memory for high-volume neural inference on NVIDIA DGX.
 
 [View Technical Repository](https://github.com/bishwast/Agentic-SOC)
+
+---
+
+🔵 Featured Project 2: Secure LLMOps Gateway & Stateless DLP Proxy
+
+Status: Complete, Hardened & Containerized
+
+Integrating generative AI into enterprise workflows introduces critical security vectors: data exfiltration (PII leakage) and false-positive model safety refusals. I designed and built a stateless, high-performance security proxy that intercepts, sanitizes, and audits prompt payloads on-the-fly before they reach local or cloud models.
+Technical Milestones:
+
+    Active Data-in-Motion DLP: Engineered high-precision regular expression filters to dynamically detect and redact 9-digit SSNs and credit card numbers, enforcing data privacy standards in alignment with PCI-DSS and SOC 2 frameworks.
+
+    Context Preservation Layer: Patched default LLM safety refusal loops by injecting authoritative system prompt overrides. This instructs the local Llama 3.2 model to contextually process redacted tokens ([REDACTED_SSN/CC]) without throwing security false-positives.
+
+    SIEM-Ready Logging (No Leakage): Designed a structured, single-line JSON log stream to stdout containing latency tracking, detection flags, and unique request UUIDs, completely omitting the raw input prompt to guarantee zero-leakage log compliance.
+
+    Hardened Non-Root Delivery: Containerized the entire FastAPI application using a lightweight Docker configuration, locking down execution permissions to a restricted system user (appuser UID 10001) to mitigate host breakout vulnerabilities.
+
+Quantifiable Impact:
+
+    100% Privacy Preservation: Eliminated the risk of raw, confidential consumer data reaching local inference storage or third-party API logs.
+
+    Zero Policy Refusals: Reduced false-positive AI refusals on redacted documents to 0% through robust system prompt engineering.
+
+    Low-Overhead Latency: Maintained microsecond-level processing times during string analysis, regex validation, and token manipulation.
+
+[View Technical Repository](https://github.com/bishwast/secure-llmops-gateway)
